@@ -1,0 +1,6 @@
+models:
+  - name: stg_customers
+    description: "{{ doc('stg_customer_desc')}}"
+    columns:
+      - name: customerid
+        description: "unique identifier to address each customer in the table"
